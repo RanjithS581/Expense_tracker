@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="header">
+            <h1> Expense Tracker </h1>
+        </div>
+
+        <div class="part1">
+            <input type="text" placeholder="Expense Name" class="expName">
+            <input type="number" placeholder="Amount" value="0" min="1" class="amount">
+            <button onclick="add()" class="addbutton" > Add Expenses </button>
+        </div>
+
+        <div class="part2">
+
+            <div class="p1">
+                <h4>Expense Name</h4>
+                <h4> Amount </h4>
+                <h4>Action</h4>
+            </div>
+
+            <div class="data_class">
+                <h5 id=add_data></h5>        
+            </div>
+
+            <div class="p2">
+                <h4> Total : $ <span id ="finalamt"> 0 </span>  </h4>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

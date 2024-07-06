@@ -1,0 +1,54 @@
+.header{
+    text-align: center;
+    width: auto;
+    /* display: flex;
+    justify-content: center; */
+}
+.part1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.expName{
+    width: 200px;
+    height: 20px;
+}
+.addbutton{
+    background-color: greenyellow;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid black; */
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px 0px grey;
+}
+.p1{
+    display: flex;
+    justify-content: space-between;
+}
+.parents{
+    display: flex;
+    justify-content: space-between;
+}
+.p2 h4{
+    display: flex;
+    justify-content: end;
+}
+.del{
+    background-color: red;
+}
+.delbut{
+    display: flex;
+    margin-top: 0px;
+}
+.parents h4{
+    margin-top: 0px;
+    margin-bottom: 41px;
+}
+
